@@ -1,0 +1,23 @@
+{
+  "name": "go-food",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohit dixit",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nanoid": "^5.1.5",
+    "shortid": "^2.2.17",
+    "url": "^0.11.4",
+    "uuid": "^11.1.0"
+  }
+}

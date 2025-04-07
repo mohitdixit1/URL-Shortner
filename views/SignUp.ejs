@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+            font-family: sans-serif;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid white;
+
+        }
+        a:hover{
+            color: blue;
+        }
+        p{
+            
+            color: white;
+        }
+        body{
+            height: 50rem;
+            width: 100%;
+            background-color: skyblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            height: 50%;
+            width: 23%;
+            
+            border: 3px solid black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        input{
+            height: 12%;
+            width: 75%;
+            border: none;
+            border-radius: 20px;
+            padding-left: 5px;
+        }
+        button{
+            height: 12%;
+            width: 35%;
+            border: none;
+            border-radius: 20px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+        <form action="/user" method="post" class="container">
+            <h1>Sign Up</h1>
+            <input type="text" placeholder="name" name="name">
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="*password" name="password">
+            <button type="submit">Sign Up</button>
+            <p>Already registered<a href="/login"> Login</a></p>
+
+
+        </form>
+    
+</body>
+</html>
